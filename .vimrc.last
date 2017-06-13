@@ -1,0 +1,9 @@
+set synmaxcol=200
+set nrformats-=alpha
+map <S-j> <C-d>
+map <S-K> <C-u>
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\.git$\|build\|release',
+    \ 'file': '\.orig'
+    \ }
+autocmd VimResized * wincmd =

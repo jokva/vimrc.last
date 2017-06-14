@@ -7,3 +7,4 @@ let g:ctrlp_custom_ignore = {
     \ 'file': '\.orig'
     \ }
 autocmd VimResized * wincmd =
+au FileType gitcommit setlocal tw=72

@@ -7,3 +7,4 @@ let g:ctrlp_custom_ignore = {
     \ 'file': '\.orig'
     \ }
 au FileType gitcommit setlocal tw=72
+au BufNewFile,BufRead *.yaml,*.yml so $HOME/.vim/bundle/vim-yaml/after/syntax/yaml.vim

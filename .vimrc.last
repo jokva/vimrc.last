@@ -6,5 +6,4 @@ let g:ctrlp_custom_ignore = {
     \ 'dir':  '\.git$\|build\|release',
     \ 'file': '\.orig'
     \ }
-autocmd VimResized * wincmd =
 au FileType gitcommit setlocal tw=72

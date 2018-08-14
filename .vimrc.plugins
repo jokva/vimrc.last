@@ -1,1 +1,1 @@
-Plugin 'git@github.com:stephpy/vim-yaml'
+Plug 'git@github.com:stephpy/vim-yaml'

@@ -3,7 +3,7 @@ set nrformats-=alpha
 map <S-j> <C-d>
 map <S-K> <C-u>
 let g:ctrlp_custom_ignore = {
-    \ 'dir':  '\.git$\|build\|release',
+    \ 'dir':  '\.git$\|build\|release\|external',
     \ 'file': '\.orig'
     \ }
 au FileType gitcommit setlocal tw=72

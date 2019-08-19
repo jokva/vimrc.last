@@ -8,6 +8,6 @@ let g:ctrlp_custom_ignore = {
     \ }
 au FileType gitcommit setlocal tw=72
 au BufNewFile,BufRead *.yaml,*.yml so $HOME/.vim/bundle/vim-yaml/after/syntax/yaml.vim
-au BufNewFile,BufRead CMakeLists.txt setlocal syntax=cmake ft=cmake
+au BufNewFile,BufRead *CMakeLists.txt setlocal syntax=cmake ft=cmake
 au FileType tex syntax region texZone start='\\begin{lstlisting}' end='\\end{lstlisting}'
 set lazyredraw

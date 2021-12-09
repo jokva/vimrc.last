@@ -1,2 +1,1 @@
-Plugin 'stephpy/vim-yaml'
 Plugin 'rust-lang/rust.vim'
